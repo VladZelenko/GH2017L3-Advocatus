@@ -1,0 +1,8 @@
+.practis-area {
+	padding: 100px 0 95px 0;
+	width: 100%;
+	min-height: 750px;
+	background: url("../../img/practis-area.png") center center no-repeat;
+	background-size: cover;
+	.title, .description {color: $secondary_font_color;}
+}
