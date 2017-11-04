@@ -3,12 +3,13 @@
 	height: 85vh;
 	background: url("../../img/hero-img.png")center center no-repeat;
 	background-size: cover;
-	.row {
-		padding-top: 605px;
-		color: $secondary_font_color;
-	}
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-end;
+	padding-bottom: 140px;
 	.name-box {
 		border-left: 2px solid $accent_color;
+		color: $secondary_font_color;
 		h2:first-child {
 			font: 400 65px $secondary_font;
 			margin: 0px;

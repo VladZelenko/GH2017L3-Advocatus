@@ -1,3 +1,6 @@
+.navbar-toggle {
+	margin-top: 25px;
+}
 .hero-btn {
 	display: block;
 	width: 180px;
@@ -8,5 +11,8 @@
 	text-align: center;
 	&:hover {
 		text-decoration: none;
+		color: $additional_color;
+		background-color: $secondary_font_color;
+		transition: all 0.3s ease-in-out;
 	}
 }

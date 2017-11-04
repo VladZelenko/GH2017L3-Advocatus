@@ -8350,12 +8350,24 @@ button.close {
   width: 100%;
   height: 85vh;
   background: url("../../img/hero-img.png") center center no-repeat;
-  background-size: cover; }
-  .hero .row {
-    padding-top: 605px;
-    color: #ffffff; }
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 140px; }
   .hero .name-box {
-    border-left: 2px solid #e8bf5d; }
+    border-left: 2px solid #e8bf5d;
+    color: #ffffff; }
     .hero .name-box h2:first-child {
       font: 400 65px "Playfair Display", sans-serif;
       margin: 0px; }
@@ -8406,6 +8418,9 @@ button.close {
   .practis-area .title, .practis-area .description {
     color: #ffffff; }
 
+.navbar-toggle {
+  margin-top: 25px; }
+
 .hero-btn {
   display: block;
   width: 180px;
@@ -8416,4 +8431,22 @@ button.close {
   font: 400 16px/50px "Playfair Display", sans-serif;
   text-align: center; }
   .hero-btn:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #111111;
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+
+@media (max-width: 992px) {
+  .navbar-header {
+    float: none; }
+  .navbar-left, .navbar-right {
+    float: none !important; }
+  .navbar-toggle {
+    display: block; }
+  .navbar-collapse.collapse {
+    display: none !important; }
+  .navbar-nav > li {
+    float: none; }
+  .collapse.in {
+    display: block !important; } }
