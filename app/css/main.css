@@ -8447,6 +8447,7 @@ button.close {
   .navbar-collapse.collapse {
     display: none !important; }
   .navbar-nav > li {
-    float: none; }
+    float: none;
+    background: #ffffff; }
   .collapse.in {
     display: block !important; } }

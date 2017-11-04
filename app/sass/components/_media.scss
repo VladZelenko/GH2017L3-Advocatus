@@ -13,6 +13,7 @@
     }
     .navbar-nav>li {
         float: none;
+        background: $secondary_font_color;
     }
     .collapse.in{
         display:block !important;
