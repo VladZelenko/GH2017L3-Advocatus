@@ -8441,6 +8441,13 @@ button.close {
       letter-spacing: 0.56px;
       font: 400 14px/25px "Open Sans", sans-serif; }
 
+.attorney {
+  width: 100%;
+  min-height: 750px;
+  padding: 80px 0 100px 0; }
+  .attorney .section-title {
+    margin-bottom: 55px; }
+
 .navbar-toggle {
   margin-top: 25px; }
 
