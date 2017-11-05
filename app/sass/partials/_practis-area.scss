@@ -5,4 +5,10 @@
 	background: url("../../img/practis-area.png") center center no-repeat;
 	background-size: cover;
 	.title, .description {color: $secondary_font_color;}
+	.section-title {margin-bottom: 100px;}
+	.content {
+		div {
+			padding-bottom: 70px;
+		}
+	}
 }

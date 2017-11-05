@@ -8417,6 +8417,10 @@ button.close {
   background-size: cover; }
   .practis-area .title, .practis-area .description {
     color: #ffffff; }
+  .practis-area .section-title {
+    margin-bottom: 100px; }
+  .practis-area .content div {
+    padding-bottom: 70px; }
 
 .navbar-toggle {
   margin-top: 25px; }
