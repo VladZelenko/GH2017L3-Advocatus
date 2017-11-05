@@ -7,8 +7,12 @@
 	.title, .description {color: $secondary_font_color;}
 	.section-title {margin-bottom: 100px;}
 	.content {
-		div {
-			padding-bottom: 70px;
+		color: $secondary_font_color;
+		div {padding-bottom: 70px;}
+		.title {font: 400 21px $secondary_font;}
+		p {
+			letter-spacing: 0.56px;
+			font: 400 14px/25px $primary_font;
 		}
 	}
 }

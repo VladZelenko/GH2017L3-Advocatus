@@ -42,6 +42,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: "font-awesome";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../libs/font-awesome/fonts/fontawesome-webfont.svg"), url("../../libs/font-awesome/fonts/fontawesome-webfont.woff2"), url("../../libs/font-awesome/fonts/fontawesome-webfont.eot"), url("../../libs/font-awesome/fonts/FontAwesome.otf"), url("../../libs/font-awesome/fonts/fontawesome-webfont.ttf"), url("../../libs/font-awesome/fonts/fontawesome-webfont.woff"); }
+
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -61,6 +67,12 @@ img {
 
 body {
   font-family: "Open Sans", sans-serif; }
+
+@font-face {
+  font-family: "font-awesome";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../libs/font-awesome/fonts/fontawesome-webfont.svg"), url("../../libs/font-awesome/fonts/fontawesome-webfont.woff2"), url("../../libs/font-awesome/fonts/fontawesome-webfont.eot"), url("../../libs/font-awesome/fonts/FontAwesome.otf"), url("../../libs/font-awesome/fonts/fontawesome-webfont.ttf"), url("../../libs/font-awesome/fonts/fontawesome-webfont.woff"); }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -8419,8 +8431,15 @@ button.close {
     color: #ffffff; }
   .practis-area .section-title {
     margin-bottom: 100px; }
-  .practis-area .content div {
-    padding-bottom: 70px; }
+  .practis-area .content {
+    color: #ffffff; }
+    .practis-area .content div {
+      padding-bottom: 70px; }
+    .practis-area .content .title {
+      font: 400 21px "Playfair Display", sans-serif; }
+    .practis-area .content p {
+      letter-spacing: 0.56px;
+      font: 400 14px/25px "Open Sans", sans-serif; }
 
 .navbar-toggle {
   margin-top: 25px; }
