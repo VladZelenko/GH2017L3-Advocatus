@@ -6162,6 +6162,12 @@ button.close {
     font: 400 14px "Open Sans", sans-serif;
     letter-spacing: 0.56px; }
 
+footer {
+  width: 100%;
+  min-height: 80px;
+  background-color: #111111;
+  color: #ffffff; }
+
 .navbar-toggle {
   margin-top: 25px; }
 
