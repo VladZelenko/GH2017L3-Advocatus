@@ -18,4 +18,9 @@
     .collapse.in{
         display:block !important;
     }
+
+}
+
+@media (min-width:  1200px) {
+    .attorney .content {text-align: left;}
 }
