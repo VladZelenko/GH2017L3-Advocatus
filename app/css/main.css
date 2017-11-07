@@ -6109,6 +6109,10 @@ button.close {
     .practis-area .content p {
       letter-spacing: 0.56px;
       font: 400 14px/25px "Open Sans", sans-serif; }
+  .practis-area .fa {
+    margin-top: 15px;
+    color: #e8bf5d;
+    font-size: 45px; }
 
 .attorney {
   width: 100%;
@@ -6125,6 +6129,38 @@ button.close {
     letter-spacing: 0.84px; }
   .attorney .positions {
     font: 400 14px/31px "Open Sans", sans-serif; }
+
+.clients {
+  width: 100%;
+  min-height: 750px;
+  padding: 80px 0 145px 0;
+  background: url("../../img/clients-bg.png");
+  background-size: cower;
+  color: #ffffff; }
+  .clients h2.title {
+    color: #ffffff;
+    font: 400 31px "Playfair Display", sans-serif; }
+  .clients .description {
+    color: #ffffff;
+    font: 400 21px/31px "Playfair Display", sans-serif;
+    letter-spacing: 0.84px; }
+  .clients .reviews-clients {
+    margin-top: 60px; }
+  .clients .reviews-clients:last-child {
+    padding: 10px 0 0 80px; }
+  .clients img {
+    -webkit-box-shadow: 20px 20px #e8bf5d;
+            box-shadow: 20px 20px #e8bf5d; }
+  .clients .reviews {
+    font: 400 14px/31px "Open Sans", sans-serif; }
+  .clients span {
+    font-size: 96px;
+    float: left; }
+  .clients h3.title {
+    font: 400 21px "Playfair Display", sans-serif; }
+  .clients .positions {
+    font: 400 14px "Open Sans", sans-serif;
+    letter-spacing: 0.56px; }
 
 .navbar-toggle {
   margin-top: 25px; }
