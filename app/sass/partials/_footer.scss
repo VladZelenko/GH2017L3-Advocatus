@@ -1,6 +1,20 @@
 footer {
 	width: 100%;
-	min-height: 80px;
 	background-color: $additional_color;
 	color: $secondary_font_color;
+	.flex {
+		display: flex;
+		min-height: 80px;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.social-icons {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		width: 115px;
+		a {color: $secondary_font_color;}
+	}
+	.fa {font-size: 15px;}
 }
