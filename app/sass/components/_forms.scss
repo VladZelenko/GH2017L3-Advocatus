@@ -1,0 +1,11 @@
+.contact {
+	input, textarea {
+		max-width: 355px;
+		min-width: 280px;
+		width: 100%;
+		border: none;
+		border-bottom: 1px solid #333333;
+		opacity: 0.2;
+		font: italic 14px/31px $primary_font;
+	}
+}

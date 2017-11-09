@@ -16,3 +16,12 @@
 		transition: all 0.3s ease-in-out;
 	}
 }
+.contact-btn {
+	margin-top: 30px;
+	width: 170px;
+	border-radius: 25px;
+	background-color: $accent_color;
+	text-decoration: none;
+	border: none;
+	font: 400 16px/50px $secondary_font;
+}

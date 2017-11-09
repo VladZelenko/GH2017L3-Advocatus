@@ -6162,6 +6162,28 @@ button.close {
     font: 400 14px "Open Sans", sans-serif;
     letter-spacing: 0.56px; }
 
+.contact {
+  width: 100%;
+  min-height: 840px;
+  padding: 100px 0 75px 0; }
+  .contact iframe {
+    max-width: 360px;
+    min-width: 280px;
+    width: 100%;
+    height: 360px;
+    -webkit-box-shadow: -20px 20px #e8bf5d;
+            box-shadow: -20px 20px #e8bf5d; }
+  .contact .form-container, .contact .map-container {
+    margin-top: 70px; }
+  .contact .contact-form {
+    width: 870px;
+    min-height: 490px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 12px 40px rgba(104, 86, 42, 0.1);
+            box-shadow: 0 12px 40px rgba(104, 86, 42, 0.1);
+    -webkit-border-radius: 3px;
+            border-radius: 3px; }
+
 footer {
   width: 100%;
   background-color: #111111;
@@ -6223,6 +6245,25 @@ footer {
     background-color: #ffffff;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
+
+.contact-btn {
+  margin-top: 30px;
+  width: 170px;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  background-color: #e8bf5d;
+  text-decoration: none;
+  border: none;
+  font: 400 16px/50px "Playfair Display", sans-serif; }
+
+.contact input, .contact textarea {
+  max-width: 355px;
+  min-width: 280px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333333;
+  opacity: 0.2;
+  font: italic 14px/31px "Open Sans", sans-serif; }
 
 @media (max-width: 992px) {
   .navbar-header {
