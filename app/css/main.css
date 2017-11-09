@@ -6177,12 +6177,15 @@ button.close {
     margin-top: 70px; }
   .contact .contact-form {
     width: 870px;
+    padding: 0 50px;
     min-height: 490px;
-    margin: 0 auto;
+    margin: 70px auto;
     -webkit-box-shadow: 0 12px 40px rgba(104, 86, 42, 0.1);
             box-shadow: 0 12px 40px rgba(104, 86, 42, 0.1);
     -webkit-border-radius: 3px;
             border-radius: 3px; }
+  .contact li {
+    margin-top: 25px; }
 
 footer {
   width: 100%;
@@ -6264,6 +6267,10 @@ footer {
   border-bottom: 1px solid #333333;
   opacity: 0.2;
   font: italic 14px/31px "Open Sans", sans-serif; }
+
+.contact textarea {
+  resize: none;
+  height: 80px; }
 
 @media (max-width: 992px) {
   .navbar-header {

@@ -8,4 +8,8 @@
 		opacity: 0.2;
 		font: italic 14px/31px $primary_font;
 	}
+	textarea {
+		resize: none;
+		height: 80px;
+	}
 }
