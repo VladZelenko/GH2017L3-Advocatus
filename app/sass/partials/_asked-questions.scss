@@ -1,0 +1,20 @@
+.asked-question {
+	width: 100%;
+	min-height: 750px;
+	padding: 100px 0 170px 0;
+	background: $additional_color;
+	color: $secondary_font_color;
+	.title {color: $secondary_font_color;}
+	.description {color: #b9b9b9;}
+	.question {
+		margin-top: 95px;
+		padding: 45px;
+		color: $additional_color;
+		font: 400 14px/31px $primary_font;
+	}
+	.first-question {
+		box-shadow: 0 12px 40px rgba(216, 178, 87, 0.32);
+		border-radius: 3px;
+		background-color: $accent_color;
+	}
+}

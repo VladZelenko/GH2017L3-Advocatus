@@ -6162,6 +6162,28 @@ button.close {
     font: 400 14px "Open Sans", sans-serif;
     letter-spacing: 0.56px; }
 
+.asked-question {
+  width: 100%;
+  min-height: 750px;
+  padding: 100px 0 170px 0;
+  background: #111111;
+  color: #ffffff; }
+  .asked-question .title {
+    color: #ffffff; }
+  .asked-question .description {
+    color: #b9b9b9; }
+  .asked-question .question {
+    margin-top: 95px;
+    padding: 45px;
+    color: #111111;
+    font: 400 14px/31px "Open Sans", sans-serif; }
+  .asked-question .first-question {
+    -webkit-box-shadow: 0 12px 40px rgba(216, 178, 87, 0.32);
+            box-shadow: 0 12px 40px rgba(216, 178, 87, 0.32);
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    background-color: #e8bf5d; }
+
 .contact {
   width: 100%;
   min-height: 840px;
@@ -6173,19 +6195,19 @@ button.close {
     height: 360px;
     -webkit-box-shadow: -20px 20px #e8bf5d;
             box-shadow: -20px 20px #e8bf5d; }
+  .contact li {
+    margin-top: 25px; }
   .contact .form-container, .contact .map-container {
     margin-top: 70px; }
   .contact .contact-form {
     width: 870px;
     padding: 0 50px;
     min-height: 490px;
-    margin: 70px auto;
+    margin: 0 auto;
     -webkit-box-shadow: 0 12px 40px rgba(104, 86, 42, 0.1);
             box-shadow: 0 12px 40px rgba(104, 86, 42, 0.1);
     -webkit-border-radius: 3px;
             border-radius: 3px; }
-  .contact li {
-    margin-top: 25px; }
 
 footer {
   width: 100%;

@@ -9,17 +9,14 @@
 		height: 360px;
 		box-shadow: -20px 20px $accent_color;
 	}
+	li {margin-top: 25px;}
 	.form-container, .map-container {margin-top: 70px;}
 	.contact-form {
 		width: 870px;
 		padding: 0 50px;
 		min-height: 490px;
-		margin: 70px auto;
+		margin: 0 auto;
 		box-shadow: 0 12px 40px rgba(104, 86, 42, 0.1);
 		border-radius: 3px;
-		.row {
-
-		}
 	}
-	li {margin-top: 25px;}
 }
